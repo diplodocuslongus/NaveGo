@@ -42,7 +42,8 @@
 clc
 clear
 close all
-matlabrc
+%octaverc
+%matlabrc
 
 addpath ../../.
 addpath ../../ins/
@@ -50,6 +51,7 @@ addpath ../../simulation/
 addpath ../../conversions/
 addpath ../../allan-variance/
 addpath ../../plot/
+addpath ../../misc/
 
 D2R = (pi/180);     % degrees to radians
 
